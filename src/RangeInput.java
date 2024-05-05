@@ -20,9 +20,11 @@ public class RangeInput {
     public void up(){
         currentTemperature = Math.min(currentTemperature +1 , maxTemperature);
     }
+
     public void down(){
         currentTemperature = Math.max(currentTemperature -1 , minTemperature);
     }
+
     public int getCurrentTemperature() {
         return currentTemperature;
     }
