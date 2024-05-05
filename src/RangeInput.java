@@ -1,7 +1,5 @@
 public class RangeInput {
-    private int currentTemperature;
-    private int minTemperature;
-    private int maxTemperature;
+    private int currentTemperature, minTemperature, maxTemperature;
 
     public RangeInput(){
         minTemperature = 60;
@@ -15,8 +13,8 @@ public class RangeInput {
         calculateTemperature();
     }
 
-    public void calculateTemperature() {
-        currentTemperature = ( minTemperature + maxTemperature)/2;
+    private void calculateTemperature() {
+        currentTemperature = (minTemperature + maxTemperature) / 2;
     }
 
     public void up(){
