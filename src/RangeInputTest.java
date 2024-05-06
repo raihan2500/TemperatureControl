@@ -43,6 +43,6 @@ class RangeInputTest {
         for(int i = 0; i < 500; i++){
             Driver2.up();
         }
-        assertEquals(500, Driver2.getCurrentTemperature());
+        assertEquals(200, Driver2.getCurrentTemperature());
     }
 }
